@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+  background-color: #FFFFF5;
+  transition: background-color 0.3s linear;
+}
+
+body.dark{
+  background-color: #3C4454;
+}
+
+.conteiner{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.botao{
+  cursor: pointer;
+  position: relative;
+  top: 5px;
+  left: 5px;
+  width: 190px;
+  height: 190px;
+  background-color: #F2B263;
+  border-radius: 50%;
+  transition:  0.5s;
+  
+}
+.botao.dark{
+  margin-left: 200px;
+}
+.fundo-botao{
+  
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  border-radius: 8%;
+  background: #2467BF;
+  transition: background-color 0.3s linear;
+}
+.fundo-botao.dark{
+  background: #223240;
+}
